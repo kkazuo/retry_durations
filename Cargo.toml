@@ -1,0 +1,12 @@
+[package]
+authors = ["Koga Kazuo <kkazuo@kkazuo.com>"]
+name = "retry_durations"
+description = "This library generates a duration iterator for [retry] crates."
+repository = "https://github.com/kkazuo/retry_durations"
+license = "MIT"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+derive_builder = "0.20"
+fastrand = "2"
